@@ -15,6 +15,12 @@ public class App {
     // Reads User String
     public String readString() {
         System.out.print("What is the input string? ");
-        return input.nextLine();
+        String string = input.nextLine();
+        while (string.equals("")){
+            System.out.println("Please enter a valid input!");
+            System.out.print("What is the input string? ");
+            string = input.nextLine();
+        }
+        return string;
     }
 }
