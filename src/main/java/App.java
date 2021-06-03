@@ -1,8 +1,10 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  Copyright 2021 William Zheng
+ */
+
 import java.util.Scanner;
 
-//Be sure the output contains the original string.
-// Use a single output statement to construct the output.
-// Use a built-in function of the programming language to determine the length of the string.
 public class App {
     static Scanner input = new Scanner(System.in);
 
